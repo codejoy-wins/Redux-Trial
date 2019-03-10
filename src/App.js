@@ -24,7 +24,10 @@ class App extends Component {
             Learn React
           </a>
         </header>
-        < Jason />
+        <div className="App-logo">
+          < Jason />
+        </div>
+        < Jason/>
       </div>
     );
   }
