@@ -1,15 +1,17 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
+import Jason from './components/Jason';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
+        < Jason />
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
-            Edit <code>src/App.js</code> and save to reload.
+            Codejoy
           </p>
           <a
             className="App-link"
@@ -20,6 +22,7 @@ class App extends Component {
             Learn React
           </a>
         </header>
+        < Jason />
       </div>
     );
   }
